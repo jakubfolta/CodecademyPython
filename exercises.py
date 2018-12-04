@@ -28,3 +28,10 @@ print(list(filter(lambda x: 29 < x < 71 , squares)))
 #Comprehending comprehensions
 threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 print(threes_and_fives)
+
+
+#List Slicing
+garbled = "!XeXgXaXsXsXeXmX XtXeXrXcXeXsX XeXhXtX XmXaX XI"
+garbledReverse = garbled[::-1]
+message = garbledReverse[::2]
+print(message)

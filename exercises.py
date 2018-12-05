@@ -67,4 +67,12 @@ print(0b1 + 0b11)
 print(0b11 * 0b11)
 
 
+#The bin(function)
+print(bin(1))
+print(bin(2))
+print(bin(3))
+print(bin(4))
+print(bin(5))
+
+
 #

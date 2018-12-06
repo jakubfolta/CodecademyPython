@@ -45,5 +45,43 @@ shift_left = 0b1
 
 shift_right = shift_right >> 2
 shift_left = shift_left << 2
-print bin(shift_right)
-print bin(shift_left)
+print(bin(shift_right))
+print(bin(shift_left))
+
+
+#A BIT of This AND That
+print(bin(0b1110 & 0b101))
+
+
+#A BIT of This OR That
+print(bin(0b1110 | 0b101))
+
+
+#This XOR That
+print(bin(0b1110 ^ 0b101))
+
+
+#The Man Behind The Bit Mask
+def check_bit4(input):
+  mask = 0b1000
+  desired = input & mask
+  if desired > 0:
+    return 'on'
+  else:
+    return 'off'
+
+print(check_bit4(0b00101))
+
+
+#Turn it on
+a = 0b10111011
+mask = 0b100
+desired = a | mask
+print(bin(desired))
+
+
+#Just Flip Out
+a = 0b11101110
+mask = 0b11111111
+desired = a ^ mask
+print(bin(desired))

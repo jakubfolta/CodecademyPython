@@ -39,4 +39,11 @@ print(int(bin(5), 2))
 print(int('11001001', 2))
 
 
-#
+#Slide to the left! Slide to the right!
+shift_right = 0b1100
+shift_left = 0b1
+
+shift_right = shift_right >> 2
+shift_left = shift_left << 2
+print bin(shift_right)
+print bin(shift_left)

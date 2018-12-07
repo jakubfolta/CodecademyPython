@@ -65,5 +65,23 @@ hippo = Animal('Max', 3)
 hippo.description()
 
 #They're multiplying
+class Animal(object):
+    is_alive = True
+    health = 'good'
+    def __init__(self, name, age):
+        self.name = name
+        self.age =age
+    def description(self):
+        print(self.name)
+        print(self.age)
+
+hippo = Animal('Max', 5)
+sloth = Animal('John', 6)
+ocelot = Animal('Ray', 5)
+
+hippo.description()
+print(hippo.health)
+print(sloth.health)
+print(ocelot.health)
 
 

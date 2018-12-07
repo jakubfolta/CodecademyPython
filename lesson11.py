@@ -84,4 +84,4 @@ print(hippo.health)
 print(sloth.health)
 print(ocelot.health)
 
-
+#It's not all animals and fruits

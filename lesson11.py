@@ -51,5 +51,18 @@ print(giraffe.name, giraffe.age, giraffe.is_alive)
 print(panda.name, panda.age, panda.is_alive)
 
 #A methodical approach
+class Animal(object):
+    is_alive= True
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def description(self):
+        print(self.name)
+        print(self.age)
 
+hippo = Animal('Max', 3)
+
+hippo.description()
+
+#
 

@@ -85,3 +85,23 @@ print(sloth.health)
 print(ocelot.health)
 
 #It's not all animals and fruits
+class ShoppingCart(object):
+    def __init__(self, customer_name):
+        self.customer_name = customer_name
+        self.items_in_cart = {}
+
+    def add_items(self, product, price):
+        if not product in self.items_in_cart:
+            self.items_in_cart[product] = price
+            print(product + 'added')
+        else:
+            print(product + 'is already in the cart')
+
+    def remove_items(self, product):
+        if product in self.items_in_cart:
+            del self.items_in_cart[product]
+            print(product + 'removed.')
+        else:
+            print(product + 'is not in the cart.')
+            
+    

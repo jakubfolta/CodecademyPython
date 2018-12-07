@@ -64,5 +64,6 @@ hippo = Animal('Max', 3)
 
 hippo.description()
 
-#
+#They're multiplying
+
 

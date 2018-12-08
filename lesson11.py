@@ -107,8 +107,7 @@ class ShoppingCart(object):
 my_cart = ShoppingCart('Qba')
 my_cart.add_items('Book', 7)
 
-print(my_cart('Qba'))
-
+#Warning: Here be dragons
 
 
 

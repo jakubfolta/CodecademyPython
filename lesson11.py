@@ -108,7 +108,20 @@ my_cart = ShoppingCart('Qba')
 my_cart.add_items('Book', 7)
 
 #Warning: Here be dragons
+class  Customer(object):
+    def __init__(self, customer_id):
+        self.customer_id = customer_id
 
+    def display_cart(self):
+        print('I\'m a string that stands in for the contents of your shopping cart')
+
+class ReturningCustomer(Customer):
+    def display_order_history(self):
+        print('I\'m a string thatstands in for your order history')
+
+monthy_python = ReturningCustomer('ID: 12345')
+monthy_python.display_cart()
+monthy_python.display_order_history()
 
 
 

@@ -138,6 +138,8 @@ class Triangle(Shape):
 class Employee(object):
     def __init__(self, employee_name):
         self.employee_name = employee_name
+    def greet(self, other):
+        print('Hello %s, welcome!' % other.employee_name)
 
     def calculate_wage(self, hours):
         self.hours = hours
@@ -148,6 +150,9 @@ class PartTimeEmployee(Employee):
         self.hours = hours
         return hours * 12.00
 
+lothar = PartTimeEmployee('Lothar')
+print(lothar.calculate_wage(130))
+lothar.greet(lothar)
 
 
 

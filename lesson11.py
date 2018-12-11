@@ -204,6 +204,8 @@ triangle = Triangle(32, 43, 66)
 
 print(triangle.check_angles())
 
+#Instantiate an object
+
 
 
 

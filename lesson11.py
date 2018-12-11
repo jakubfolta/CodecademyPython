@@ -177,7 +177,10 @@ milton = PartTimeEmployee('John')
 print(milton.full_time_wage(10))
 
 #Class basics
-
+class Triangle(object):
+    def __init__(self, angle1, angle2, angle3):
+        pass
+        
 
 
 

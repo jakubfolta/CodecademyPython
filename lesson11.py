@@ -182,7 +182,9 @@ class Triangle(object):
         self.angle1 = angle1
         self.angle2 = angle2
         self.angle3 = angle3
-        
+
+#Class it up
+
         
 
 

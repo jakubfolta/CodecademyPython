@@ -8,4 +8,8 @@ class Car(object):
 
 my_car = Car()
 
-#
+#Class member variables
+class Car(object):
+    pass
+
+my_car = Car()

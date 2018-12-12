@@ -10,6 +10,6 @@ my_car = Car()
 
 #Class member variables
 class Car(object):
-    pass
+    condition = 'new'
 
 my_car = Car()

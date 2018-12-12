@@ -13,3 +13,9 @@ class Car(object):
     condition = 'new'
 
 my_car = Car()
+
+#Calling class member variables
+class Car(object):
+    condition = 'new'
+
+my_car = Car()

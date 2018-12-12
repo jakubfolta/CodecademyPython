@@ -250,7 +250,9 @@ class Equilateral(Triangle):
     angle = 60
 
     def __init__(self):
-        self.angle = self.angle1
+        self.angle1 = self.angle
+        self.angle2 = self.angle
+        self.angle3 = self.angle
 
 
 

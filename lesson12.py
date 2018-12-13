@@ -33,7 +33,10 @@ class Car(object):
 my_car = Car('DeLorean', 'silver', 88)
 
 print(my_car.condition)
-print(my_car.self)
+
+#Reffering to member variables
+
+
 
 
 

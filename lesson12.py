@@ -170,6 +170,13 @@ my_car.drive_car()
 print(my_car.condition)
 
 #Building useful classes
+class Point3D(object):
+    def __init__(self, x, y, z):
+        self.x = x
+        self.y = y
+        self.z = z
+    def __repr__(self):
+        return ('')
 
 
 

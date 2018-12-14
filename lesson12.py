@@ -15,6 +15,33 @@ my_file.close()
 #Reading
 my_file = open('output.txt', 'r')
 
-print (my_file.read())
+print(my_file.read())
 
 my_file.close()
+
+#Reading between the lines
+my_file = open('text.txt', 'w')
+
+my_file.write('This is the first line' + '\n')
+my_file.write('This is the second line' + '\n')
+my_file.write('This is the third line' + '\n')
+
+my_file = open('text.txt', 'r')
+
+print(my_file.readline())
+print(my_file.readline())
+print(my_file.readline())
+
+my_file.close()
+
+#PSA: Buffering data
+
+
+
+
+
+
+
+
+
+

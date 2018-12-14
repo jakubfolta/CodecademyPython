@@ -11,3 +11,10 @@ for x in my_list:
     my_file.write(str(x) + '\n')
 
 my_file.close()
+
+#Reading
+my_file = open('output.txt', 'r')
+
+print (my_file.read())
+
+my_file.close()

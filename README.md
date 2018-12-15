@@ -6,6 +6,7 @@
 
 ## Status
 Project is finished.
+![Course completed](./images/CompletedPythonCourse.jpg) 
 
 ## Sources
 This project was inspired by Python course on Codecademy. 

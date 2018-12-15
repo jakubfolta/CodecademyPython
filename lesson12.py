@@ -26,6 +26,8 @@ my_file.write('This is the first line' + '\n')
 my_file.write('This is the second line' + '\n')
 my_file.write('This is the third line' + '\n')
 
+my_file.close()
+
 my_file = open('text.txt', 'r')
 
 print(my_file.readline())

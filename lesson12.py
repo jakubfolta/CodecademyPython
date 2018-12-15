@@ -41,7 +41,7 @@ write_file = open('text.txt','w')
 
 read_file = open('text.txt','r')
 
-write_file.write('Not closing files is VERY BAD.')
+write_file.write('Not closing files is VERY BAD.' + '\n')
 write_file.close()
 
 print(read_file.read())
@@ -51,7 +51,7 @@ read_file.close()
 with open('text.txt', 'w') as textfile:
     textfile.write('Success!')
 
-open('text.txt', 'r')
+textfile = open('text.txt', 'r')
 print(textfile.read())
 
 

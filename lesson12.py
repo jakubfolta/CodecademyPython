@@ -49,10 +49,17 @@ read_file.close()
 
 #The 'with' and 'as' Keywords
 with open('text.txt', 'w') as textfile:
-    textfile.write('Success!')
+    textfile.write('Success!' + '\n')
 
 textfile = open('text.txt', 'r')
 print(textfile.read())
+
+#Try it yourself
+with open('text2.txt', 'w') as my_file:
+    my_file.write('This is my text!' + '\n')
+
+my_file = open('text2.txt', 'r')
+print(my_file.read())
 
 
 

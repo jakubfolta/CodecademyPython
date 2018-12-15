@@ -5,7 +5,7 @@
 * Python - version 3.7
 
 ## Status
-Project is finished.
+Project is finished.<br/>
 ![Course completed](./images/CompletedPythonCourse.jpg) 
 
 ## Sources

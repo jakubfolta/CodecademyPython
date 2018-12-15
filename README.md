@@ -6,6 +6,7 @@
 
 ## Status
 Project is finished.<br/>
+
 ![Course completed](./images/CompletedPythonCourse.jpg) 
 
 ## Sources

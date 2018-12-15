@@ -48,7 +48,11 @@ print(read_file.read())
 read_file.close()
 
 #The 'with' and 'as' Keywords
+with open('text.txt', 'w') as textfile:
+    textfile.write('Success!')
 
+open('text.txt', 'r')
+print(textfile.read())
 
 
 

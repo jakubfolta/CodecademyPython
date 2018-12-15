@@ -61,17 +61,15 @@ with open('text2.txt', 'w') as my_file:
 my_file = open('text2.txt', 'r')
 print(my_file.read())
 
+#Case closed?
+with open('text2.txt', 'w') as my_file:
+    my_file.write('This is my text!' + '\n')
 
+my_file = open('text2.txt', 'r')
+print(my_file.read())
 
+if not my_file.closed:
+    my_file.close()
 
-
-
-
-
-
-
-
-
-
-
+print(my_file.closed)
 

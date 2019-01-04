@@ -70,7 +70,7 @@ class Animal(object):
     health = 'good'
     def __init__(self, name, age):
         self.name = name
-        self.age =age
+        self.age = age
     def description(self):
         print(self.name)
         print(self.age)
